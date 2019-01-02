@@ -106,3 +106,6 @@ venv.bak/
 
 #Eclipse
 .pydevproject
+__pycache__
+__pycache__/
+.metadata
