@@ -14,9 +14,6 @@ data = np.asarray(dataFile);
 X = data[:,0:2];
 y = data[:,2];
 
-#DTOS DE ENTRENAMiento
-X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.25, random_state=42);
-
 classifier = LinearRegression();
 classifier.fit(X,y);
 
